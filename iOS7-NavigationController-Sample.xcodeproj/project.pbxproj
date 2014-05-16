@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B683A0BA19261074005440E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B683A0B919261074005440E6 /* Foundation.framework */; };
+		B683A0BC19261074005440E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B683A0BB19261074005440E6 /* CoreGraphics.framework */; };
+		B683A0BE19261074005440E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B683A0BD19261074005440E6 /* UIKit.framework */; };
+		B683A0C419261074005440E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B683A0C219261074005440E6 /* InfoPlist.strings */; };
+		B683A0C619261074005440E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B683A0C519261074005440E6 /* main.m */; };
+		B683A0CA19261074005440E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B683A0C919261074005440E6 /* AppDelegate.m */; };
+		B683A0CD19261074005440E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B683A0CB19261074005440E6 /* Main.storyboard */; };
+		B683A0D019261074005440E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B683A0CF19261074005440E6 /* ViewController.m */; };
+		B683A0D219261074005440E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B683A0D119261074005440E6 /* Images.xcassets */; };
+		B683A0D919261074005440E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B683A0D819261074005440E6 /* XCTest.framework */; };
+		B683A0DA19261074005440E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B683A0B919261074005440E6 /* Foundation.framework */; };
+		B683A0DB19261074005440E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B683A0BD19261074005440E6 /* UIKit.framework */; };
+		B683A0E319261074005440E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B683A0E119261074005440E6 /* InfoPlist.strings */; };
+		B683A0E519261074005440E6 /* iOS7_NavigationController_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B683A0E419261074005440E6 /* iOS7_NavigationController_SampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B683A0DC19261074005440E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B683A0AE19261074005440E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B683A0B519261074005440E6;
+			remoteInfo = "iOS7-NavigationController-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B683A0B619261074005440E6 /* iOS7-NavigationController-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS7-NavigationController-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B683A0B919261074005440E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B683A0BB19261074005440E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B683A0BD19261074005440E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B683A0C119261074005440E6 /* iOS7-NavigationController-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7-NavigationController-Sample-Info.plist"; sourceTree = "<group>"; };
+		B683A0C319261074005440E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B683A0C519261074005440E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B683A0C719261074005440E6 /* iOS7-NavigationController-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS7-NavigationController-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		B683A0C819261074005440E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B683A0C919261074005440E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B683A0CC19261074005440E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B683A0CE19261074005440E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B683A0CF19261074005440E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B683A0D119261074005440E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B683A0D719261074005440E6 /* iOS7-NavigationController-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS7-NavigationController-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B683A0D819261074005440E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B683A0E019261074005440E6 /* iOS7-NavigationController-SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7-NavigationController-SampleTests-Info.plist"; sourceTree = "<group>"; };
+		B683A0E219261074005440E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B683A0E419261074005440E6 /* iOS7_NavigationController_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS7_NavigationController_SampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B683A0B319261074005440E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B683A0BC19261074005440E6 /* CoreGraphics.framework in Frameworks */,
+				B683A0BE19261074005440E6 /* UIKit.framework in Frameworks */,
+				B683A0BA19261074005440E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B683A0D419261074005440E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B683A0D919261074005440E6 /* XCTest.framework in Frameworks */,
+				B683A0DB19261074005440E6 /* UIKit.framework in Frameworks */,
+				B683A0DA19261074005440E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B683A0AD19261074005440E6 = {
+			isa = PBXGroup;
+			children = (
+				B683A0BF19261074005440E6 /* iOS7-NavigationController-Sample */,
+				B683A0DE19261074005440E6 /* iOS7-NavigationController-SampleTests */,
+				B683A0B819261074005440E6 /* Frameworks */,
+				B683A0B719261074005440E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B683A0B719261074005440E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B683A0B619261074005440E6 /* iOS7-NavigationController-Sample.app */,
+				B683A0D719261074005440E6 /* iOS7-NavigationController-SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B683A0B819261074005440E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B683A0B919261074005440E6 /* Foundation.framework */,
+				B683A0BB19261074005440E6 /* CoreGraphics.framework */,
+				B683A0BD19261074005440E6 /* UIKit.framework */,
+				B683A0D819261074005440E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B683A0BF19261074005440E6 /* iOS7-NavigationController-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				B683A0C819261074005440E6 /* AppDelegate.h */,
+				B683A0C919261074005440E6 /* AppDelegate.m */,
+				B683A0CB19261074005440E6 /* Main.storyboard */,
+				B683A0CE19261074005440E6 /* ViewController.h */,
+				B683A0CF19261074005440E6 /* ViewController.m */,
+				B683A0D119261074005440E6 /* Images.xcassets */,
+				B683A0C019261074005440E6 /* Supporting Files */,
+			);
+			path = "iOS7-NavigationController-Sample";
+			sourceTree = "<group>";
+		};
+		B683A0C019261074005440E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B683A0C119261074005440E6 /* iOS7-NavigationController-Sample-Info.plist */,
+				B683A0C219261074005440E6 /* InfoPlist.strings */,
+				B683A0C519261074005440E6 /* main.m */,
+				B683A0C719261074005440E6 /* iOS7-NavigationController-Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B683A0DE19261074005440E6 /* iOS7-NavigationController-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B683A0E419261074005440E6 /* iOS7_NavigationController_SampleTests.m */,
+				B683A0DF19261074005440E6 /* Supporting Files */,
+			);
+			path = "iOS7-NavigationController-SampleTests";
+			sourceTree = "<group>";
+		};
+		B683A0DF19261074005440E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B683A0E019261074005440E6 /* iOS7-NavigationController-SampleTests-Info.plist */,
+				B683A0E119261074005440E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B683A0B519261074005440E6 /* iOS7-NavigationController-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B683A0E819261074005440E6 /* Build configuration list for PBXNativeTarget "iOS7-NavigationController-Sample" */;
+			buildPhases = (
+				B683A0B219261074005440E6 /* Sources */,
+				B683A0B319261074005440E6 /* Frameworks */,
+				B683A0B419261074005440E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS7-NavigationController-Sample";
+			productName = "iOS7-NavigationController-Sample";
+			productReference = B683A0B619261074005440E6 /* iOS7-NavigationController-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B683A0D619261074005440E6 /* iOS7-NavigationController-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B683A0EB19261074005440E6 /* Build configuration list for PBXNativeTarget "iOS7-NavigationController-SampleTests" */;
+			buildPhases = (
+				B683A0D319261074005440E6 /* Sources */,
+				B683A0D419261074005440E6 /* Frameworks */,
+				B683A0D519261074005440E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B683A0DD19261074005440E6 /* PBXTargetDependency */,
+			);
+			name = "iOS7-NavigationController-SampleTests";
+			productName = "iOS7-NavigationController-SampleTests";
+			productReference = B683A0D719261074005440E6 /* iOS7-NavigationController-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B683A0AE19261074005440E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					B683A0D619261074005440E6 = {
+						TestTargetID = B683A0B519261074005440E6;
+					};
+				};
+			};
+			buildConfigurationList = B683A0B119261074005440E6 /* Build configuration list for PBXProject "iOS7-NavigationController-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B683A0AD19261074005440E6;
+			productRefGroup = B683A0B719261074005440E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B683A0B519261074005440E6 /* iOS7-NavigationController-Sample */,
+				B683A0D619261074005440E6 /* iOS7-NavigationController-SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B683A0B419261074005440E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B683A0D219261074005440E6 /* Images.xcassets in Resources */,
+				B683A0C419261074005440E6 /* InfoPlist.strings in Resources */,
+				B683A0CD19261074005440E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B683A0D519261074005440E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B683A0E319261074005440E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B683A0B219261074005440E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B683A0D019261074005440E6 /* ViewController.m in Sources */,
+				B683A0CA19261074005440E6 /* AppDelegate.m in Sources */,
+				B683A0C619261074005440E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B683A0D319261074005440E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B683A0E519261074005440E6 /* iOS7_NavigationController_SampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B683A0DD19261074005440E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B683A0B519261074005440E6 /* iOS7-NavigationController-Sample */;
+			targetProxy = B683A0DC19261074005440E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B683A0C219261074005440E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B683A0C319261074005440E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B683A0CB19261074005440E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B683A0CC19261074005440E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B683A0E119261074005440E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B683A0E219261074005440E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B683A0E619261074005440E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B683A0E719261074005440E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B683A0E919261074005440E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7-NavigationController-Sample/iOS7-NavigationController-Sample-Prefix.pch";
+				INFOPLIST_FILE = "iOS7-NavigationController-Sample/iOS7-NavigationController-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B683A0EA19261074005440E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7-NavigationController-Sample/iOS7-NavigationController-Sample-Prefix.pch";
+				INFOPLIST_FILE = "iOS7-NavigationController-Sample/iOS7-NavigationController-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B683A0EC19261074005440E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7-NavigationController-Sample.app/iOS7-NavigationController-Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7-NavigationController-Sample/iOS7-NavigationController-Sample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS7-NavigationController-SampleTests/iOS7-NavigationController-SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B683A0ED19261074005440E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7-NavigationController-Sample.app/iOS7-NavigationController-Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7-NavigationController-Sample/iOS7-NavigationController-Sample-Prefix.pch";
+				INFOPLIST_FILE = "iOS7-NavigationController-SampleTests/iOS7-NavigationController-SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B683A0B119261074005440E6 /* Build configuration list for PBXProject "iOS7-NavigationController-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B683A0E619261074005440E6 /* Debug */,
+				B683A0E719261074005440E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B683A0E819261074005440E6 /* Build configuration list for PBXNativeTarget "iOS7-NavigationController-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B683A0E919261074005440E6 /* Debug */,
+				B683A0EA19261074005440E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B683A0EB19261074005440E6 /* Build configuration list for PBXNativeTarget "iOS7-NavigationController-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B683A0EC19261074005440E6 /* Debug */,
+				B683A0ED19261074005440E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B683A0AE19261074005440E6 /* Project object */;
+}
