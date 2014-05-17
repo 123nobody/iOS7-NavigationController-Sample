@@ -21,6 +21,8 @@
 		B683A0DB19261074005440E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B683A0BD19261074005440E6 /* UIKit.framework */; };
 		B683A0E319261074005440E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B683A0E119261074005440E6 /* InfoPlist.strings */; };
 		B683A0E519261074005440E6 /* iOS7_NavigationController_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B683A0E419261074005440E6 /* iOS7_NavigationController_SampleTests.m */; };
+		B683A0F219263F61005440E6 /* UINavigationController+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B683A0F119263F61005440E6 /* UINavigationController+MethodSwizzling.m */; };
+		B683A0F519263F83005440E6 /* UIViewController+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B683A0F419263F83005440E6 /* UIViewController+MethodSwizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		B683A0E019261074005440E6 /* iOS7-NavigationController-SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7-NavigationController-SampleTests-Info.plist"; sourceTree = "<group>"; };
 		B683A0E219261074005440E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B683A0E419261074005440E6 /* iOS7_NavigationController_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS7_NavigationController_SampleTests.m; sourceTree = "<group>"; };
+		B683A0F019263F61005440E6 /* UINavigationController+MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MethodSwizzling.h"; sourceTree = "<group>"; };
+		B683A0F119263F61005440E6 /* UINavigationController+MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MethodSwizzling.m"; sourceTree = "<group>"; };
+		B683A0F319263F83005440E6 /* UIViewController+MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MethodSwizzling.h"; sourceTree = "<group>"; };
+		B683A0F419263F83005440E6 /* UIViewController+MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MethodSwizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		B683A0BF19261074005440E6 /* iOS7-NavigationController-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				B683A0EF19263F58005440E6 /* Category */,
 				B683A0C819261074005440E6 /* AppDelegate.h */,
 				B683A0C919261074005440E6 /* AppDelegate.m */,
 				B683A0CB19261074005440E6 /* Main.storyboard */,
@@ -150,6 +157,17 @@
 				B683A0E119261074005440E6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B683A0EF19263F58005440E6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B683A0F019263F61005440E6 /* UINavigationController+MethodSwizzling.h */,
+				B683A0F119263F61005440E6 /* UINavigationController+MethodSwizzling.m */,
+				B683A0F319263F83005440E6 /* UIViewController+MethodSwizzling.h */,
+				B683A0F419263F83005440E6 /* UIViewController+MethodSwizzling.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B683A0F519263F83005440E6 /* UIViewController+MethodSwizzling.m in Sources */,
 				B683A0D019261074005440E6 /* ViewController.m in Sources */,
 				B683A0CA19261074005440E6 /* AppDelegate.m in Sources */,
+				B683A0F219263F61005440E6 /* UINavigationController+MethodSwizzling.m in Sources */,
 				B683A0C619261074005440E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -364,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

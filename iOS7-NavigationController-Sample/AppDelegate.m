@@ -12,7 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+//    UIImage *image = [UIImage imageNamed:@"nav_back_btn"] ;
+//    image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+//    [UINavigationBar appearance].backIndicatorImage = image;
+//    [UINavigationBar appearance].backIndicatorTransitionMaskImage = image;
     return YES;
 }
 							
